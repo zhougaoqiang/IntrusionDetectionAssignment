@@ -1,0 +1,600 @@
+#######################################################################
+####./data/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv  => ./data/sample4_labeled_renamed.csv ####
+#######################################################################
+_______________________________________________________________________
+_______________________________________________________________________
+Decision Tree Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9961453 0.9989803 0.9975608     89246
+    PortScan  0.9991804 0.9968997 0.9980388    111281
+
+    accuracy                      0.9978257    200527
+   macro avg  0.9976628 0.9979400 0.9977998    200527
+weighted avg  0.9978296 0.9978257 0.9978260    200527
+
+Decision Tree Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009950 1.0000000 0.0019881         2
+    PortScan  0.0000000 0.0000000 0.0000000      2008
+
+    accuracy                      0.0009950      2010
+   macro avg  0.0004975 0.5000000 0.0009940      2010
+weighted avg  0.0000010 0.0009950 0.0000020      2010
+
+Decision Tree Classifier Elapsed time: 0.47246646881103516
+_______________________________________________________________________
+_______________________________________________________________________
+K-Nearest Neighbors Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9958872 0.9984537 0.9971688     89246
+    PortScan  0.9987573 0.9966931 0.9977241    111281
+
+    accuracy                      0.9974766    200527
+   macro avg  0.9973222 0.9975734 0.9974465    200527
+weighted avg  0.9974799 0.9974766 0.9974770    200527
+
+K-Nearest Neighbors Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009950 1.0000000 0.0019881         2
+    PortScan  0.0000000 0.0000000 0.0000000      2008
+
+    accuracy                      0.0009950      2010
+   macro avg  0.0004975 0.5000000 0.0009940      2010
+weighted avg  0.0000010 0.0009950 0.0000020      2010
+
+K-Nearest Neighbors Classifier Elapsed time: 50.69799041748047
+_______________________________________________________________________
+_______________________________________________________________________
+Artificial Neural Network Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9995193 0.9785873 0.9889425     89246
+    PortScan  0.9831109 0.9996226 0.9912980    111281
+
+    accuracy                      0.9902607    200527
+   macro avg  0.9913151 0.9891049 0.9901203    200527
+weighted avg  0.9904136 0.9902607 0.9902497    200527
+
+Artificial Neural Network Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009950 1.0000000 0.0019881         2
+    PortScan  0.0000000 0.0000000 0.0000000      2008
+
+    accuracy                      0.0009950      2010
+   macro avg  0.0004975 0.5000000 0.0009940      2010
+weighted avg  0.0000010 0.0009950 0.0000020      2010
+
+Artificial Neural Network Classifier Elapsed time: 27.83831763267517
+_______________________________________________________________________
+_______________________________________________________________________
+Random Forest Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9961459 0.9991372 0.9976393     89246
+    PortScan  0.9993064 0.9968997 0.9981016    111281
+
+    accuracy                      0.9978955    200527
+   macro avg  0.9977261 0.9980185 0.9978705    200527
+weighted avg  0.9978998 0.9978955 0.9978959    200527
+
+Random Forest Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009950 1.0000000 0.0019881         2
+    PortScan  0.0000000 0.0000000 0.0000000      2008
+
+    accuracy                      0.0009950      2010
+   macro avg  0.0004975 0.5000000 0.0009940      2010
+weighted avg  0.0000010 0.0009950 0.0000020      2010
+
+Random Forest Classifier Elapsed time: 3.6308984756469727
+_______________________________________________________________________
+_______________________________________________________________________
+AdaBoost Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9961120 0.9990252 0.9975665     89246
+    PortScan  0.9992164 0.9968728 0.9980432    111281
+
+    accuracy                      0.9978307    200527
+   macro avg  0.9976642 0.9979490 0.9978048    200527
+weighted avg  0.9978348 0.9978307 0.9978310    200527
+
+AdaBoost Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009950 1.0000000 0.0019881         2
+    PortScan  0.0000000 0.0000000 0.0000000      2008
+
+    accuracy                      0.0009950      2010
+   macro avg  0.0004975 0.5000000 0.0009940      2010
+weighted avg  0.0000010 0.0009950 0.0000020      2010
+
+AdaBoost Classifier Elapsed time: 5.476912498474121
+_______________________________________________________________________
+_______________________________________________________________________
+#######################################################################
+####./data/concatenated_rename_2Label.csv  => ./data/sample4_labeled_renamed.csv ####
+#######################################################################
+_______________________________________________________________________
+_______________________________________________________________________
+Decision Tree Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9902534 0.9951028       513
+    PortScan  0.9992771 1.0000000 0.9996384      6912
+
+    accuracy                      0.9993266      7425
+   macro avg  0.9996386 0.9951267 0.9973706      7425
+weighted avg  0.9993271 0.9993266 0.9993251      7425
+
+Decision Tree Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.5000000 1.0000000 0.6666667         2
+    PortScan  1.0000000 0.9990040 0.9995017      2008
+
+    accuracy                      0.9990050      2010
+   macro avg  0.7500000 0.9995020 0.8330842      2010
+weighted avg  0.9995025 0.9990050 0.9991706      2010
+
+Decision Tree Classifier Elapsed time: 0.02307915687561035
+_______________________________________________________________________
+_______________________________________________________________________
+K-Nearest Neighbors Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9805068 0.9901575       513
+    PortScan  0.9985553 1.0000000 0.9992771      6912
+
+    accuracy                      0.9986532      7425
+   macro avg  0.9992777 0.9902534 0.9947173      7425
+weighted avg  0.9986551 0.9986532 0.9986471      7425
+
+K-Nearest Neighbors Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.5000000 1.0000000 0.6666667         2
+    PortScan  1.0000000 0.9990040 0.9995017      2008
+
+    accuracy                      0.9990050      2010
+   macro avg  0.7500000 0.9995020 0.8330842      2010
+weighted avg  0.9995025 0.9990050 0.9991706      2010
+
+K-Nearest Neighbors Classifier Elapsed time: 0.518714189529419
+_______________________________________________________________________
+_______________________________________________________________________
+Artificial Neural Network Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9629630 0.9811321       513
+    PortScan  0.9972587 1.0000000 0.9986275      6912
+
+    accuracy                      0.9974411      7425
+   macro avg  0.9986293 0.9814815 0.9898798      7425
+weighted avg  0.9974481 0.9974411 0.9974187      7425
+
+Artificial Neural Network Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.5000000 1.0000000 0.6666667         2
+    PortScan  1.0000000 0.9990040 0.9995017      2008
+
+    accuracy                      0.9990050      2010
+   macro avg  0.7500000 0.9995020 0.8330842      2010
+weighted avg  0.9995025 0.9990050 0.9991706      2010
+
+Artificial Neural Network Classifier Elapsed time: 2.1359105110168457
+_______________________________________________________________________
+_______________________________________________________________________
+Random Forest Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9922027 0.9960861       513
+    PortScan  0.9994216 1.0000000 0.9997107      6912
+
+    accuracy                      0.9994613      7425
+   macro avg  0.9997108 0.9961014 0.9978984      7425
+weighted avg  0.9994616 0.9994613 0.9994603      7425
+
+Random Forest Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.5000000 1.0000000 0.6666667         2
+    PortScan  1.0000000 0.9990040 0.9995017      2008
+
+    accuracy                      0.9990050      2010
+   macro avg  0.7500000 0.9995020 0.8330842      2010
+weighted avg  0.9995025 0.9990050 0.9991706      2010
+
+Random Forest Classifier Elapsed time: 0.24984025955200195
+_______________________________________________________________________
+_______________________________________________________________________
+AdaBoost Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9883721 0.9941520 0.9912536       513
+    PortScan  0.9995658 0.9991319 0.9993488      6912
+
+    accuracy                      0.9987879      7425
+   macro avg  0.9939689 0.9966420 0.9953012      7425
+weighted avg  0.9987924 0.9987879 0.9987895      7425
+
+AdaBoost Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.2000000 1.0000000 0.3333333         2
+    PortScan  1.0000000 0.9960159 0.9980040      2008
+
+    accuracy                      0.9960199      2010
+   macro avg  0.6000000 0.9980080 0.6656687      2010
+weighted avg  0.9992040 0.9960199 0.9973426      2010
+
+AdaBoost Classifier Elapsed time: 0.23504352569580078
+_______________________________________________________________________
+_______________________________________________________________________
+#######################################################################
+####./data/combinedCICIDS2017andSelfGenerated.csv  => ./data/sample4_labeled_renamed.csv ####
+#######################################################################
+_______________________________________________________________________
+_______________________________________________________________________
+Decision Tree Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9998102 0.9949344 0.9973664     90019
+    PortScan  0.9961477 0.9998559 0.9979983    117933
+
+    accuracy                      0.9977254    207952
+   macro avg  0.9979790 0.9973951 0.9976824    207952
+weighted avg  0.9977332 0.9977254 0.9977248    207952
+
+Decision Tree Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009980 1.0000000 0.0019940         2
+    PortScan  1.0000000 0.0029880 0.0059583      2008
+
+    accuracy                      0.0039801      2010
+   macro avg  0.5004990 0.5014940 0.0039762      2010
+weighted avg  0.9990060 0.0039801 0.0059543      2010
+
+Decision Tree Classifier Elapsed time: 0.5036447048187256
+_______________________________________________________________________
+_______________________________________________________________________
+K-Nearest Neighbors Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9959004 0.9984892 0.9971931     90019
+    PortScan  0.9988445 0.9968626 0.9978526    117933
+
+    accuracy                      0.9975667    207952
+   macro avg  0.9973725 0.9976759 0.9975229    207952
+weighted avg  0.9975701 0.9975667 0.9975671    207952
+
+K-Nearest Neighbors Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.2000000 1.0000000 0.3333333         2
+    PortScan  1.0000000 0.9960159 0.9980040      2008
+
+    accuracy                      0.9960199      2010
+   macro avg  0.6000000 0.9980080 0.6656687      2010
+weighted avg  0.9992040 0.9960199 0.9973426      2010
+
+K-Nearest Neighbors Classifier Elapsed time: 54.33044672012329
+_______________________________________________________________________
+_______________________________________________________________________
+Artificial Neural Network Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9926835 0.9992779 0.9959698     90019
+    PortScan  0.9994460 0.9943782 0.9969057    117933
+
+    accuracy                      0.9964992    207952
+   macro avg  0.9960648 0.9968280 0.9964377    207952
+weighted avg  0.9965186 0.9964992 0.9965005    207952
+
+Artificial Neural Network Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.2000000 1.0000000 0.3333333         2
+    PortScan  1.0000000 0.9960159 0.9980040      2008
+
+    accuracy                      0.9960199      2010
+   macro avg  0.6000000 0.9980080 0.6656687      2010
+weighted avg  0.9992040 0.9960199 0.9973426      2010
+
+Artificial Neural Network Classifier Elapsed time: 42.8659610748291
+_______________________________________________________________________
+_______________________________________________________________________
+Random Forest Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9998772 0.9952121 0.9975392     90019
+    PortScan  0.9963584 0.9999067 0.9981294    117933
+
+    accuracy                      0.9978745    207952
+   macro avg  0.9981178 0.9975594 0.9978343    207952
+weighted avg  0.9978816 0.9978745 0.9978739    207952
+
+Random Forest Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0009960 1.0000000 0.0019900         2
+    PortScan  1.0000000 0.0009960 0.0019900      2008
+
+    accuracy                      0.0019900      2010
+   macro avg  0.5004980 0.5004980 0.0019900      2010
+weighted avg  0.9990060 0.0019900 0.0019900      2010
+
+Random Forest Classifier Elapsed time: 4.2641332149505615
+_______________________________________________________________________
+_______________________________________________________________________
+AdaBoost Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9955165 0.9989669 0.9972387     90019
+    PortScan  0.9992093 0.9965658 0.9978858    117933
+
+    accuracy                      0.9976052    207952
+   macro avg  0.9973629 0.9977664 0.9975623    207952
+weighted avg  0.9976108 0.9976052 0.9976057    207952
+
+AdaBoost Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.5000000 1.0000000 0.6666667         2
+    PortScan  1.0000000 0.9990040 0.9995017      2008
+
+    accuracy                      0.9990050      2010
+   macro avg  0.7500000 0.9995020 0.8330842      2010
+weighted avg  0.9995025 0.9990050 0.9991706      2010
+
+AdaBoost Classifier Elapsed time: 5.708237171173096
+_______________________________________________________________________
+_______________________________________________________________________
+#######################################################################
+####./data/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv  => ./data/concatenated_rename_2Label.csv ####
+#######################################################################
+_______________________________________________________________________
+_______________________________________________________________________
+Decision Tree Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9961341 0.9989691 0.9975496     89246
+    PortScan  0.9991714 0.9968908 0.9980298    111281
+
+    accuracy                      0.9978158    200527
+   macro avg  0.9976527 0.9979299 0.9977897    200527
+weighted avg  0.9978196 0.9978158 0.9978161    200527
+
+Decision Tree Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0697718 1.0000000 0.1304424       740
+    PortScan  0.0000000 0.0000000 0.0000000      9866
+
+    accuracy                      0.0697718     10606
+   macro avg  0.0348859 0.5000000 0.0652212     10606
+weighted avg  0.0048681 0.0697718 0.0091012     10606
+
+Decision Tree Classifier Elapsed time: 0.4968702793121338
+_______________________________________________________________________
+_______________________________________________________________________
+K-Nearest Neighbors Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9958872 0.9984537 0.9971688     89246
+    PortScan  0.9987573 0.9966931 0.9977241    111281
+
+    accuracy                      0.9974766    200527
+   macro avg  0.9973222 0.9975734 0.9974465    200527
+weighted avg  0.9974799 0.9974766 0.9974770    200527
+
+K-Nearest Neighbors Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0697718 1.0000000 0.1304424       740
+    PortScan  0.0000000 0.0000000 0.0000000      9866
+
+    accuracy                      0.0697718     10606
+   macro avg  0.0348859 0.5000000 0.0652212     10606
+weighted avg  0.0048681 0.0697718 0.0091012     10606
+
+K-Nearest Neighbors Classifier Elapsed time: 52.72388529777527
+_______________________________________________________________________
+_______________________________________________________________________
+Artificial Neural Network Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9935691 0.9988795 0.9962172     89246
+    PortScan  0.9990975 0.9948149 0.9969516    111281
+
+    accuracy                      0.9966239    200527
+   macro avg  0.9963333 0.9968472 0.9965844    200527
+weighted avg  0.9966370 0.9966239 0.9966248    200527
+
+Artificial Neural Network Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0697718 1.0000000 0.1304424       740
+    PortScan  0.0000000 0.0000000 0.0000000      9866
+
+    accuracy                      0.0697718     10606
+   macro avg  0.0348859 0.5000000 0.0652212     10606
+weighted avg  0.0048681 0.0697718 0.0091012     10606
+
+Artificial Neural Network Classifier Elapsed time: 41.2612042427063
+_______________________________________________________________________
+_______________________________________________________________________
+Random Forest Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9961570 0.9991372 0.9976449     89246
+    PortScan  0.9993064 0.9969087 0.9981061    111281
+
+    accuracy                      0.9979005    200527
+   macro avg  0.9977317 0.9980230 0.9978755    200527
+weighted avg  0.9979047 0.9979005 0.9979008    200527
+
+Random Forest Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0697718 1.0000000 0.1304424       740
+    PortScan  0.0000000 0.0000000 0.0000000      9866
+
+    accuracy                      0.0697718     10606
+   macro avg  0.0348859 0.5000000 0.0652212     10606
+weighted avg  0.0048681 0.0697718 0.0091012     10606
+
+Random Forest Classifier Elapsed time: 3.66737699508667
+_______________________________________________________________________
+_______________________________________________________________________
+AdaBoost Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9961120 0.9990252 0.9975665     89246
+    PortScan  0.9992164 0.9968728 0.9980432    111281
+
+    accuracy                      0.9978307    200527
+   macro avg  0.9976642 0.9979490 0.9978048    200527
+weighted avg  0.9978348 0.9978307 0.9978310    200527
+
+AdaBoost Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.0697718 1.0000000 0.1304424       740
+    PortScan  0.0000000 0.0000000 0.0000000      9866
+
+    accuracy                      0.0697718     10606
+   macro avg  0.0348859 0.5000000 0.0652212     10606
+weighted avg  0.0048681 0.0697718 0.0091012     10606
+
+AdaBoost Classifier Elapsed time: 5.376190423965454
+_______________________________________________________________________
+_______________________________________________________________________
+#######################################################################
+####./data/concatenated_rename_2Label.csv  => ./data/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv ####
+#######################################################################
+_______________________________________________________________________
+_______________________________________________________________________
+Decision Tree Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9902534 0.9951028       513
+    PortScan  0.9992771 1.0000000 0.9996384      6912
+
+    accuracy                      0.9993266      7425
+   macro avg  0.9996386 0.9951267 0.9973706      7425
+weighted avg  0.9993271 0.9993266 0.9993251      7425
+
+Decision Tree Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9992075 0.4152050 0.5866407    127537
+    PortScan  0.6805470 0.9997357 0.8098246    158930
+
+    accuracy                      0.7394988    286467
+   macro avg  0.8398773 0.7074704 0.6982327    286467
+weighted avg  0.8224168 0.7394988 0.7104617    286467
+
+Decision Tree Classifier Elapsed time: 0.2683064937591553
+_______________________________________________________________________
+_______________________________________________________________________
+K-Nearest Neighbors Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9805068 0.9901575       513
+    PortScan  0.9985553 1.0000000 0.9992771      6912
+
+    accuracy                      0.9986532      7425
+   macro avg  0.9992777 0.9902534 0.9947173      7425
+weighted avg  0.9986551 0.9986532 0.9986471      7425
+
+K-Nearest Neighbors Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9949013 0.6028133 0.7507470    127537
+    PortScan  0.7578492 0.9975209 0.8613231    158930
+
+    accuracy                      0.8217945    286467
+   macro avg  0.8763753 0.8001671 0.8060351    286467
+weighted avg  0.8633864 0.8217945 0.8120939    286467
+
+K-Nearest Neighbors Classifier Elapsed time: 15.564263820648193
+_______________________________________________________________________
+_______________________________________________________________________
+Artificial Neural Network Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9766082 0.9881657       513
+    PortScan  0.9982669 1.0000000 0.9991327      6912
+
+    accuracy                      0.9983838      7425
+   macro avg  0.9991334 0.9883041 0.9936492      7425
+weighted avg  0.9983866 0.9983838 0.9983750      7425
+
+Artificial Neural Network Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9954364 0.7337086 0.8447646    127537
+    PortScan  0.8235401 0.9973007 0.9021295    158930
+
+    accuracy                      0.8799478    286467
+   macro avg  0.9094882 0.8655047 0.8734471    286467
+weighted avg  0.9000695 0.8799478 0.8765903    286467
+
+Artificial Neural Network Classifier Elapsed time: 1.3962645530700684
+_______________________________________________________________________
+_______________________________________________________________________
+Random Forest Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  1.0000000 0.9941520 0.9970674       513
+    PortScan  0.9995662 1.0000000 0.9997830      6912
+
+    accuracy                      0.9995960      7425
+   macro avg  0.9997831 0.9970760 0.9984252      7425
+weighted avg  0.9995961 0.9995960 0.9995954      7425
+
+Random Forest Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9980957 0.5178027 0.6818618    127537
+    PortScan  0.7208468 0.9992072 0.8375032    158930
+
+    accuracy                      0.7848827    286467
+   macro avg  0.8594713 0.7585049 0.7596825    286467
+weighted avg  0.8442798 0.7848827 0.7682106    286467
+
+Random Forest Classifier Elapsed time: 0.7827999591827393
+_______________________________________________________________________
+_______________________________________________________________________
+AdaBoost Classifier (Validation):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9883721 0.9941520 0.9912536       513
+    PortScan  0.9995658 0.9991319 0.9993488      6912
+
+    accuracy                      0.9987879      7425
+   macro avg  0.9939689 0.9966420 0.9953012      7425
+weighted avg  0.9987924 0.9987879 0.9987895      7425
+
+AdaBoost Classifier (Test):
+              precision    recall  f1-score   support
+
+      BENIGN  0.9983288 0.5901817 0.7418212    127537
+    PortScan  0.7523724 0.9992072 0.8583977    158930
+
+    accuracy                      0.8171063    286467
+   macro avg  0.8753506 0.7946944 0.8001094    286467
+weighted avg  0.8618738 0.8171063 0.8064971    286467
+
+AdaBoost Classifier Elapsed time: 2.614337921142578
+_______________________________________________________________________
+_______________________________________________________________________
